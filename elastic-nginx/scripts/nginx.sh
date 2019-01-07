@@ -14,7 +14,7 @@ echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | tee -a /e
 
 apt-get update && apt-get install logstash -y
 
-apt-get install filebeat -y
+#apt-get install filebeat -y
 #apt-get update
 #dpkg -i /vagrant/soft/logstash-6.5.4.deb
 
