@@ -19,19 +19,17 @@ vagrant up
 
 ## When Vagrant provision the VMs
 
-- To access a Kibana UI type the following on your command line
-
-```
-$ ssh vagrant@192.168.56.56 -L 5601:localhost:5601
-vagrant@192.168.56.56's password: vagrant
-```
-- Than open the browser and login in Kibana http://localhost:5601
+- To access a Kibana UI open the browser and login in Kibana http://192.168.56.57
 
 ## Now we need logs to be generated
 
 - Open a Web browser of your choice, The address of NGINX server will be http://192.168.56.56
-- Now you are on NGINX Welcome and you should generate a logs. This can be done by typing an address that not exist:
+- Now you are on NGINX Welcome and you should generate a logs. This can be done by typing an address that not exist - for example:
 
-http://192.168.56.56/whatever 
+http://192.168.56.56/whatever
+
+
+
+
 
 
