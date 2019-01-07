@@ -1,7 +1,5 @@
 # This repo contain an Elastic Stack example configuration
 
-# This repo contain an Elastic Stack example configuration on two vagrant boxes with NGINX logs redirected to Elasticsearch
-
 ## Prerequisite
 
 - [Vagrant](https://www.vagrantup.com/) installed
