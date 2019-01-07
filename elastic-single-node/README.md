@@ -1,5 +1,7 @@
 # This repo contain an Elastic Stack example configuration
 
+# This repo contain an Elastic Stack example configuration on two vagrant boxes with NGINX logs redirected to Elasticsearch
+
 ## Prerequisite
 
 - [Vagrant](https://www.vagrantup.com/) installed
@@ -9,7 +11,7 @@
 
 ```
 git clone https://github.com/chavo1/elastic.git
-cd elastic/elastic-single-node
+cd elastic/elastic-nginx
 vagrant up
 ```
 ## A following software will be installed on CentOS7 
@@ -18,11 +20,6 @@ vagrant up
 - [Kibana](https://www.elastic.co/products/kibana)
 - [Filebeat](https://www.elastic.co/products/beats/filebeat)
 
-## 
+## When Vagrant provision the VMs
 
-
-```
-$ ssh vagrant@192.168.56.56 -L 5601:localhost:5601
-vagrant@192.168.56.56's password: vagrant
-```
-Than open the browser and login in Kibana http://localhost:5601
+- To access a Kibana UI open the browser and login in Kibana http://192.168.56.57
