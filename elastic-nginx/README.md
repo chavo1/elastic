@@ -19,7 +19,7 @@ vagrant up
 
 ## When Vagrant provision the VMs
 
-- To access a Kibana UI open the browser and login in Kibana http://192.168.56.57
+- To access a Kibana UI open a Web browser of your choice and login in Kibana http://192.168.56.57
 
 ## Now we need logs to be generated
 
