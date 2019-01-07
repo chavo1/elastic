@@ -36,7 +36,7 @@ rpm --install filebeat-6.5.4-x86_64.rpm
 systemctl enable filebeat
 
 rm /etc/filebeat/filebeat.yml
-cp /vagrant/conf/filebeat1.yml /etc/filebeat/filebeat.yml
+cp /vagrant/conf/filebeat.yml /etc/filebeat/filebeat.yml
 filebeat setup
 filebeat modules enable apache2
 systemctl start filebeat
