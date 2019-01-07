@@ -24,7 +24,7 @@ vagrant up
 ## Now we need logs to be generated
 
 - Open a Web browser of your choice, The address of NGINX server will be http://192.168.56.56
-- Now you are on NGINX Welcome and you should generate a logs. This can be done by typing an address that not exist - for example:
+- Now we need to generate a logs. This can be done by typing an address that not exist - for example:
 
 http://192.168.56.56/whatever
 
