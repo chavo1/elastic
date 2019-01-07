@@ -2,8 +2,8 @@
 
 ## Prerequisite
 
-- [Vagrant](https://www.vagrantup.com/) installed
-- Basic knowledge about the Elastic Stack
+- [Vagrant](https://www.vagrantup.com/) installed.
+- Basic knowledge about the Elastic Stack.
 
 ## Clone the repo
 
@@ -18,6 +18,13 @@ vagrant up
 - [Kibana](https://www.elastic.co/products/kibana)
 - [Filebeat](https://www.elastic.co/products/beats/filebeat)
 
+
 ## When Vagrant provision the VMs
 
-- To access a Kibana UI open the browser and login in Kibana http://192.168.56.56
+- To access a Kibana UI type the following on your command line.
+
+```
+$ ssh vagrant@192.168.56.56 -L 5601:localhost:5601
+vagrant@192.168.56.56's password: vagrant
+```
+- Than open the browser and login in Kibana http://localhost:5601
